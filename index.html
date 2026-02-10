@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tech Blog</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="logo" href="index.html">AI Tech</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1>Exploring <span id="typed"></span></h1>
+    <p>A modern AI blog for students, innovators & tech learners.</p>
+
+    <!-- UPDATED BUTTONS -->
+    <div class="hero-buttons">
+      <a href="blog.html" class="btn btn-primary">Explore Blogs</a>
+      <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED ARTICLES -->
+<section class="section">
+<h2>Featured Articles</h2>
+<div class="cards">
+
+  <div class="card">
+    <img src="Images/ai image 01.webp" alt="AI Basics">
+    <h3>What is AI?</h3>
+    <p>Basics of Artificial Intelligence.</p>
+    <p class="more">
+      AI allows machines to learn, think, and make decisions like humans.
+      Applications include apps, robotics, healthcare, smart systems, and education.
+    </p>
+    <button onclick="toggle(this)">Read More</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/ai image 02.jpg" alt="AI Daily Life">
+    <h3>AI in Daily Life</h3>
+    <p>AI is everywhere.</p>
+    <p class="more">
+      From smartphones to recommendation systems, AI powers social media,
+      maps, virtual assistants, and smart devices daily.
+    </p>
+    <button onclick="toggle(this)">Read More</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/ai image 03.jpg" alt="AI Future">
+    <h3>Future of AI</h3>
+    <p>Next generation tech.</p>
+    <p class="more">
+      AI will shape healthcare, education, robotics, smart cities,
+      and climate solutions for the future.
+    </p>
+    <button onclick="toggle(this)">Read More</button>
+  </div>
+
+</div>
+</section>
+
+<!-- STATS -->
+<section class="section stats">
+<h2>Our Stats</h2>
+<div class="stats-grid">
+  <div class="stat"><h3 class="counter" data-target="50">0</h3><p>Articles</p></div>
+  <div class="stat"><h3 class="counter" data-target="1000">0</h3><p>Students</p></div>
+  <div class="stat"><h3 class="counter" data-target="10">0</h3><p>Projects</p></div>
+</div>
+</section>
+
+<footer>
+<p>© 2026 AI Tech Blog | Created by Maryam Alam Khan</p>
+<p>
+  <a href="index.html">Home</a> |
+  <a href="blog.html">Blog</a> |
+  <a href="about.html">About</a> |
+  <a href="contact.html">Contact</a>
+</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+new Typed('#typed',{
+  strings:[
+    "Artificial Intelligence",
+    "AI Innovations",
+    "Future Technology",
+    "AI in Daily Life"
+  ],
+  typeSpeed:80,
+  backSpeed:50,
+  loop:true
+});
+</script>
+
+</body>
+</html>
